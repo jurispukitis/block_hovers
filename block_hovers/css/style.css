@@ -1,0 +1,39 @@
+/* main css */
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .img_w {
+        margin: 20px;
+        display: inline-block;
+        -webkit-transition: -webkit-transform .2s 0s, opacity .2s 0s;
+        transition: transform .2s 0s, opacity .2s 0s;
+        opacity: .6;
+        }
+        .img_w:hover {
+            -webkit-transform: translateY(-5px) scale(1.2);
+            transform: translateY(-5px) scale(1.2);
+            opacity: 1;
+            }
+    .img_w img {
+        width: 300px;
+        }
+
+/* /main css */
+
+/* overlay css */
+
+#pointerOverlay {
+    position: fixed;
+    top: 0; right: 0; left: 0; bottom: 0;
+    visibility: hidden;
+    pointer-events: none;
+    }
+    #pointerOverlay.__auto {
+        visibility: visible;
+        pointer-events: auto;
+        }
+
+/* /overlay css */
