@@ -21,6 +21,15 @@
         width: 300px;
         }
 
+.hide {
+    display: none;
+    }
+#toggleOverlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    }
+
 /* /main css */
 
 /* overlay css */
@@ -34,6 +43,7 @@
     #pointerOverlay.__auto {
         visibility: visible;
         pointer-events: auto;
+        background: rgba(255, 0, 0, .3) ;
         }
 
 /* /overlay css */
