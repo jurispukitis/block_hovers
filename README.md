@@ -3,5 +3,5 @@ block_hovers
 
 blocking hover events when scrolling
 
-look at
+look in
 js/block_hovers.js
